@@ -1,0 +1,42 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Operator Mono",
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 2,
+    "javascript.validate.enable": false,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "standard.run": "onType",
+    "standard.options": {
+        "parser": "babel-eslint"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnSave": true,
+    "git.confirmSync": false,
+    "mssql.connections": [
+        {
+            "server": "",
+            "database": "",
+            "authenticationType": "SqlLogin",
+            "user": "",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Dev Line"
+        }
+    ],
+    "workbench.iconTheme": "vscode-great-icons",
+    "cSpell.userWords": [
+        "Sunmi",
+        "barcode"
+    ],
+    "dart.openDevTools": "flutter",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+​
+}
