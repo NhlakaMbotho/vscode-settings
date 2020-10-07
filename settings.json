@@ -10,33 +10,125 @@
     "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
     "editor.minimap.enabled": false,
     "files.insertFinalNewline": true,
+    "standard.enable": true,
+    "standard.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
     "standard.run": "onType",
-    "standard.options": {
-        "parser": "babel-eslint"
-    },
     "typescript.updateImportsOnFileMove.enabled": "always",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.formatOnSave": true,
     "git.confirmSync": false,
     "mssql.connections": [
         {
-            "server": "",
-            "database": "",
+            "server": "IT-FG-SQL01.italtile.local",
+            "database": "ItaltileDev",
             "authenticationType": "SqlLogin",
-            "user": "",
+            "user": "vectra",
             "password": "",
             "emptyPasswordInput": false,
             "savePassword": true,
-            "profileName": "Dev Line"
+            "profileName": "Dev"
+        },
+        {
+            "server": "IT-FG-SQL01.italtile.local",
+            "database": "OneMobilePhoneGap",
+            "authenticationType": "SqlLogin",
+            "user": "vectra",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Prod"
+        },
+        {
+            "server": "IT-FG-SQL01.italtile.local",
+            "database": "HTTPTransactionLoggingQa",
+            "authenticationType": "SqlLogin",
+            "user": "vectra",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Logger"
         }
     ],
-    "workbench.iconTheme": "vscode-great-icons",
     "cSpell.userWords": [
         "Sunmi",
-        "barcode"
+        "barcode",
+        "fastify",
+        "opsi"
     ],
     "dart.openDevTools": "flutter",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
-​
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "left",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescriptreact",
+        "yaml",
+        "yml",
+        "Authorisation",
+        "GPNT",
+        "Perc",
+        "Thumbzup",
+        "cacher",
+        "forkauth",
+        "moleculer",
+        "nats",
+        "pino",
+        "umren",
+        "umrez",
+        "vectra"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.highlights.enabled": true,
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
 }
